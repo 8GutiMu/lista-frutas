@@ -4,34 +4,42 @@ src: assets\fuentes\Luna.tff;
 }
 
 body{
-  background-image: url("assets/imagenes/fruta_cascasda.jpg");
+  background-image: url("assets/imagenes/frutascollage.jpg");
   background-size: 1400px;
+
 
 }
 
 h1 {
+    color:white;
     position: absolute;
     top:80px;
     left: 290px;
     font-family:luna;
     font-size: 70px;
-    text-shadow: 2px 2px white;
+    text-shadow: 2px 2px black;
+
 }
 
 p{
+  background-color: rgba(0, 0, 0, 0.5);
+  color:white;
   font-family: arial;
   position: absolute;
   top:240px;
   left: 295px;
-  text-shadow: 1px 1px white;
-
+  border-radius: 4px;
 }
 
 section{
+  background-color: rgba(0, 0, 0, 0.5);
+  background-size: cover;
+  color: white;
   font-family: arial;
   position: absolute;
-  top:310px;
-  left: 900px;
+  top:350px;
+  left: 1000px;
+  border-radius: 10px;
 }
 
 .button{
@@ -41,7 +49,7 @@ section{
       text-decoration: none;
       display: inline-block;
       border-radius: 4px;
-      font-size: 19px;
+      font-size:8px;
 }
 .button:hover {
     background-color: #009999; /* Green */
