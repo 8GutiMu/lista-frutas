@@ -1,7 +1,50 @@
-h1 {
-  font-family: Helvetica;
+@font-face {
+font-family: luna;
+src: assets\fuentes\Luna.tff;
 }
 
 body{
-  font-family: Helvetica;
+  background-image: url("assets/imagenes/fruta_cascasda.jpg");
+  background-size: 1400px;
+
+}
+
+h1 {
+    position: absolute;
+    top:80px;
+    left: 290px;
+    font-family:luna;
+    font-size: 70px;
+    text-shadow: 2px 2px white;
+}
+
+p{
+  font-family: arial;
+  position: absolute;
+  top:240px;
+  left: 295px;
+  text-shadow: 1px 1px white;
+
+}
+
+section{
+  font-family: arial;
+  position: absolute;
+  top:310px;
+  left: 900px;
+}
+
+.button{
+      background-color: #999999; /*Color de caja*/
+      color: white; /*Color de texto*/
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      border-radius: 4px;
+      font-size: 19px;
+}
+.button:hover {
+    background-color: #009999; /* Green */
+    color: white;
+
 }

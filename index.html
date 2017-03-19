@@ -4,30 +4,24 @@
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="estilos.css">
     <title>Lista de frutas</title>
-    <script type="text/javascript">
-<!--
-function agreagarLi(){
-    var texto=document.getElementById('liname').value;
-    var li=document.createElement('LI');
-    li.innerHTML=texto==''?'(nada)':texto;
-    document.getElementById('lista').appendChild(li);
-}
-
--->
-</script>
+      <script src=assets\js\agregarlista.js>
+      </script>
   </head>
+
   <body>
     <h1> Lista de Frutas </h1>
     <p>
       <strong>Frutas Master</strong> es una empresa familiar de tercera generación
-      que se dedica a la compra, venta y distribución de frutas al por mayor. <br>En la
+      que se dedica a la compra, venta y <br> distribución de frutas al por mayor. En la
       actualidad, somos la empresa líder en el servicio de fruta
     </p>
-    <IMG SRC="assets\imagenes\Frutas.png" width=400px>
+<!--
+    <div style="position:absolute; top:110px; left:900px;">
+    <IMG SRC="assets\imagenes\Frutas.png" width=300px>
+    </div>
+-->
+  <section>
       <h2>Catálogo:</h2>
-
-
-
       <ol id="lista">
         <li>Manzana</li>
         <li>Pera</li>
@@ -36,7 +30,8 @@ function agreagarLi(){
         <li>Naranja</li>
       </ol>
       <input type="text" id="liname" placeholder="Fruta" />
-      <input type="button" onclick="agreagarLi();" value="Agregar" />
+      <input type="button" class="button" onclick="agreagarLi();" value="Agregar Fruta" />
+    </section>
 
   </body>
 </html>
