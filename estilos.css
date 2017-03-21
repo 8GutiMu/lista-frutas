@@ -5,9 +5,7 @@ src: assets\fuentes\Luna.tff;
 
 body{
   background-image: url("assets/imagenes/frutascollage.jpg");
-  background-size: 1400px;
-
-
+  background-size: 100%;
 }
 
 h1 {
@@ -18,8 +16,8 @@ h1 {
     font-family:luna;
     font-size: 70px;
     text-shadow: 2px 2px black;
-
 }
+
 
 p{
   background-color: rgba(0, 0, 0, 0.5);
